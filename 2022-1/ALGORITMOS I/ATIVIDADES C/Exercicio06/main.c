@@ -1,18 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, "Portuguese");
     float sal, liquido,grat, imposto;
 
-    printf("Digite seu salario: \n");
+    printf("Digite seu salário: \n");
     scanf("%f", &sal);
 
     grat = sal *5/100;
     imposto = sal * 7/100;
     liquido = sal + grat - imposto;
 
-    printf("Seu salario e de: %.2f", liquido);
+    printf("Seu salário é de: %.2f\n", liquido);
 
+    system("pause");
     return 0;
 }
