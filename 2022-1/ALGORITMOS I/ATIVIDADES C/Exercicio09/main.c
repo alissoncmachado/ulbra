@@ -11,6 +11,8 @@ int main()
 
     area = (altura * base) /2;
 
-    printf("A area da base e de : %.2f metros.\n", area);
+    printf("A área da base é de : %.2f metros.\n", area);
+
+    system ("pause");
     return 0;
 }

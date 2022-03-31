@@ -15,7 +15,8 @@ int main()
     soma = nota1 + nota2 + nota3;
     media = soma/3;
 
-    printf("A media das notas e de: %.2f", media);
+    printf("A média das notas é de: %.2f\n", media);
 
+    system ("pause");
     return 0;
 }

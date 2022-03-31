@@ -16,7 +16,8 @@ int main()
 
     resultado = n1+n2+n3+n4;
 
-    printf("A soma dos valores digitados: %d", resultado);
+    printf("A soma dos valores digitados é: %d\n", resultado);
 
+    system ("pause");
     return 0;
 }

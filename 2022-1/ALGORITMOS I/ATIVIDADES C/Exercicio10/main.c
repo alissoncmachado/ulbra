@@ -9,6 +9,8 @@ int main()
     scanf("%f", &raio);
     area = (PI * raio) * 2;
 
-    printf("A area do circulo e de: %.2f \n", area);
+    printf("A área do circulo é de: %.2f \n", area);
+
+    system ("pause");
     return 0;
 }

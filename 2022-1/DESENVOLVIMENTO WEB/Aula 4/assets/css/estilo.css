@@ -1,5 +1,9 @@
 body {
 	font-family: sans-serif;
+	background-color: rgb(38, 77, 30);
+}
+.tudo{
+	background-color: white;
 }
 h1 {
 	background-color: rgb(58, 243, 7);
@@ -59,6 +63,7 @@ h4 {
 }
 hr {
 	margin-top: 0px;
+	border: solid 1px;
 	border-color: rgb(58, 243, 7);
 }
 p {
@@ -101,4 +106,19 @@ p {
 	float: left;
 	text-align: justify;	
 }
-
+h1:hover {
+    background-color: rgb(72, 134, 55);
+	color: white;
+}
+.titulodados:hover {
+	color: rgb(72, 134, 55);
+}
+.circle:hover {
+	background-color: rgb(72, 134, 55);
+}
+h3:hover {
+	color: rgb(72, 134, 55);
+}
+h2:hover {
+	color: rgb(72, 134, 55);
+}

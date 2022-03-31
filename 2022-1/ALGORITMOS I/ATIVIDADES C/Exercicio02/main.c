@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
 
 int main()
 {
-    setlocale(LC_ALL, "Portuguese");
-    float nota1, nota2, nota3, media;
 
+    float nota1, nota2, nota3, media;
     printf("Digite a primeira nota: \n");
     scanf ("%f", &nota1);
     printf("Digite a segunda nota: \n");
@@ -16,7 +14,7 @@ int main()
 
     media =(nota1 + nota2 + nota3)/3;
 
-    printf("A média das notas é de: %.2f\n", media);
+    printf("A mÃ©dia das notas Ã© de: %.2f\n", media);
 
     system("pause");
     return 0;
