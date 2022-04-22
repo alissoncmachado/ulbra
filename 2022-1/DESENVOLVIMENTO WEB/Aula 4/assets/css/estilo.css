@@ -2,9 +2,6 @@ body {
 	font-family: sans-serif;
 	background-color: rgb(38, 77, 30);
 }
-.tudo{
-	background-color: white;
-}
 h1 {
 	background-color: rgb(58, 243, 7);
 	border-radius: 10px;
@@ -30,6 +27,7 @@ h4 {
 	margin-bottom: 0px;
 }
 .tudo {
+	background-color: white;
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
