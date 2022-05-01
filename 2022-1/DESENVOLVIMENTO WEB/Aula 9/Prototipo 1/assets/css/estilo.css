@@ -1,0 +1,68 @@
+* {
+    box-sizing: content-box;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    color: white;
+    padding: 20px;
+}
+#menu li {
+    list-style-type: none;
+    color: white;
+    padding-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+#menu {
+    background-color:dimgrey;
+    width: 20%;
+    float: left;
+    height: 800px;
+}
+#menu a:hover {
+    color: blue;
+}
+article {
+    float: left;
+    width: 80%;
+    background-color:darkgray ;
+}
+h1 {
+    text-align: center;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.foto {
+    width: 90%;
+    float: right;
+
+}
+img {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+
+}
+#home {
+    display: block;
+}
+#london {
+    display: none;
+}
+#paris {
+    display: none;
+}
+#tokyo {
+    display: none;
+}
+#home {
+    background-color:darkgray;   
+}
