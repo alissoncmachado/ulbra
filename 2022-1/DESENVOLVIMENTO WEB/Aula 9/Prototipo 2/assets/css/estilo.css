@@ -32,12 +32,12 @@ h2,h3, p{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+    color: black;
     font-weight: normal;
     padding-top: 20px;
     padding-bottom: 30px;
 }
-#textoprojetos{
+#projetos{
     display: flex;
     align-items: center;
     justify-content: center;
